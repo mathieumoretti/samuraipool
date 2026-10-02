@@ -11,7 +11,7 @@ La formule keeper demande un certain engagement à long terme de ses participant
 - **Secrétaire trésorier :** Jim
 - **Préfet de discipline :** Van Verlaan
 
-Le document présent « Fondements et esprit du pool » doit être voté à la majorité pour prendre effet. En cas d'égalité, le commissionnaire peut utiliser son vote prépondérant et trancher le débat.
+Le présent document « Fondements et esprit du pool » doit être voté à la majorité pour prendre effet. En cas d'égalité, le commissionnaire peut utiliser son vote prépondérant et trancher le débat.
 
 ---
 
@@ -19,17 +19,17 @@ Le document présent « Fondements et esprit du pool » doit être voté à la m
 
 1. Pool keeper (4 joueurs) max 3 attaquants, au moins 1 défenseur ou un gardien. *(Amendement #9)*
 
-   **1.1** Un des keepers devra être un U24 (23 ans ou moins) en date du 1 janvier de l'année du draft. (e.g Draft 2023-2024 -> 1er Janvier 2023) *(Amendement #3, #8, #9)*
+   **1.1** Un des keepers devra être un U24 (23 ans ou moins) en date du 1er janvier de l'année du draft. (ex. : Draft 2023-2024 → 1er janvier 2023) *(Amendement #3, #8, #9)*
 
-   > **1.1.1** Un pooler qui n'a pas de joueur keeper U24 au moment où débute le draft ne peut keeper un 4e joueur et se voit perdre son choix de première ronde de l'année en cours personnel ou acquis via transaction (le meilleur). Si le pooler concerné n'a pas de choix de première ronde, il perd cont 2e pick et ainsi de suite. *(Amendement #6)*
+   > **1.1.1** Un pooler qui n'a pas de joueur keeper U24 au moment où débute le draft ne peut keeper un 4e joueur et se voit perdre son choix de première ronde de l'année en cours personnel ou acquis via transaction (le meilleur). Si le pooler concerné n'a pas de choix de première ronde, il perd son 2e choix et ainsi de suite. *(Amendement #6)*
 
 2. Le repêchage se déroule dans l'ordre inverse du classement de la saison régulière précédente, soit du dernier au classement jusqu'au premier (NHL style).
 
-   *Pour la première année 2018-2019, un tirage au sort sera fait pour déterminer l'ordre de sélection et les choix se feront en mode allez-retour (du 1er au dernier, du dernier au 1er et ainsi de suite)*
+   *Pour la première année 2018-2019, un tirage au sort a été fait pour déterminer l'ordre de sélection et les choix se feront en mode allez-retour (du 1er au dernier, du dernier au 1er et ainsi de suite)*
 
    **2.1** Clause anti tank : *(Amendement #4, #9)*
 
-   Les 5 poolers terminants aux position 10 à 14 participent à une loterie afin de déterminer leur ordre de repêchage pour l'ensemble des 14 rondes. Un pourcentage de chance de gagner la loterie est attribuée à chaque pooler en fonction du rang final au classement général.
+   Les 5 poolers terminant aux positions 10 à 14 participent à une loterie afin de déterminer leur ordre de repêchage pour l'ensemble des 14 rondes. Un pourcentage de chance de gagner la loterie est attribué à chaque pooler en fonction du rang final au classement général.
 
    - Position 14 : 35%
    - Position 13 : 25%
@@ -51,19 +51,19 @@ Le document présent « Fondements et esprit du pool » doit être voté à la m
 
 7. Tout DG doit obligatoirement payer sa franchise le jour du repêchage. Le montant total servira à payer les gains des gagnants de la saison précédente.
 
-8. Gains pour les positions 1-2-3-4 du classement final en fonction du nombre de participant (Gain de la position 4 = à la franchise annuelle). La répartition des gains sera déterminé annuellement par le secrétaire trésorier.
+8. Gains pour les positions 1-2-3-4 du classement final en fonction du nombre de participants (gain de la position 4 équivalent à la franchise annuelle). La répartition des gains sera déterminé annuellement par le secrétaire trésorier.
 
-   **8.1** Le gagnant aura le choix des gains monétaires ou un chandail de la LNH d'un joeur de son choix. *(Amendement #1)*
+   **8.1** Le gagnant aura le choix des gains monétaires ou un chandail de la LNH d'un joueur de son choix. *(Amendement #1)*
 
-9. Si un pooler quitte le pool Samuraï, l'ensemble de ses joueurs sont offert le jour du repêchage (via une lotterie) aux autres poolers, qui pourront échanger un seul de leur joueur keeper et ce préalablement au repêchage. Chaque joueur keeper ainsi échangé est remis automatiquement dans la banque de joueurs « spécial lotterie ». Un nouveau pooler fait aussi partie de la lotterie. Au terme de la lotterie, le (ou les) nouveau pooler pourra sélectionner ses joueurs keeper avant le repêchage, mais seulement parmi les joueurs « spécial lotterie ». Advenant qu'il y ait un nombre inférieur de joueur disponible « spécial lotterie » restant au nombre de joueur keeper permis, le nouveau pooler pourra choisir les joueurs manquants parmi tous ceux disponible au ballotage.
+9. Si un pooler quitte le pool Samuraï, l'ensemble de ses joueurs sont offert le jour du repêchage (via une loterie) aux autres poolers, qui pourront échanger un seul de leur joueur keeper et ce préalablement au repêchage. Chaque joueur keeper ainsi échangé est remis automatiquement dans la banque de joueurs « spécial loterie ». Un nouveau pooler fait aussi partie de la loterie. Au terme de la loterie, le (ou les) nouveau pooler pourra sélectionner ses joueurs keeper avant le repêchage, mais seulement parmi les joueurs « spécial loterie ». Advenant qu'il y ait un nombre inférieur de joueur disponible « spécial loterie » restant au nombre de joueur keeper permis, le nouveau pooler pourra choisir les joueurs manquants parmi tous ceux disponible au ballotage.
 
 10. Lors du repêchage, les pooler ayant sélectionné un nombre inférieur de joueurs que le nombre total permis par franchise en raison d'échanges de choix effectués, choisissent à tour de rôle les joueurs manquants à la fin du repêchage en fonction de leurs rangs de sélection respectifs.
 
 11. Toute transaction est soumise à un vote d'approbation à majorité de l'ensemble des DG. (règle ESPN). En cas d'égalité, le responsable du comité de discipline peut utiliser son vote prépondérant et trancher le débat. Un non-vote = approbation.
 
-12. Le responsable du comité de discipline est en charge de toutes questions litigieuses et d'exception et devra organiser un vote de règlement concernant le litige en question. (Jurisprudence : Team Capt'n Boy c. Team Mister X, saison 2017-18, drop d'un joueur par erreur, grief accueillit). En cas d'égalité, le responsable du comité de discipline peut utiliser son vote prépondérant et trancher le débat.
+12. Le responsable du comité de discipline est en charge de toutes questions litigieuses et d'exception et devra organiser un vote de règlement concernant le litige en question. (Jurisprudence : Team Capt'n Boy c. Team Mister X, saison 2017-18, drop d'un joueur par erreur, grief accueilli). En cas d'égalité, le responsable du comité de discipline peut utiliser son vote prépondérant et trancher le débat.
 
-13. Le pooler terminant au dernier rang doit OBLIGATOIREMENT fournir une caisse de 24 bières lors du repêchage suivant. Le pooler ne respectant pas la présente clause se verra amputé de son 5e choix qui sera redonné au hasard à un autre pooler par tirage au sort. La Black Label est prohibé. (Clause Mon Boy)
+13. Le pooler terminant au dernier rang doit OBLIGATOIREMENT fournir une caisse de 24 bières lors du repêchage suivant. Le pooler ne respectant pas la présente clause se verra amputé de son 5e choix qui sera redonné au hasard à un autre pooler par tirage au sort. La Black Label est prohibée. (Clause Mon Boy)
 
     **13.1** Les poolers terminant au 14e rang, au 13e et au 12e rang du classement général pré-loterie doivent impérativement payer et amener une caisse de 24 (14e), de 12 (13e) et de 6 (12e) au draft.
 
@@ -73,21 +73,21 @@ Le document présent « Fondements et esprit du pool » doit être voté à la m
 
 16. Toute modification, ajout ou retrait de statuts et règlements doit faire l'objet d'un vote à la majorité. En cas d'égalité, le commissionnaire peut utiliser son vote prépondérant et trancher le débat.
 
-17. Règle "Dit c'est dit!" — Un pooleur, à son tour de sélection, s'il choisit avec une formulation sans-équivoque un joueur non-sélectionné ne peût revenir sur sa décision. *(Voté et approuvé au Draft 2022-2023)*
+17. Règle "Dit c'est dit!" — Un pooleur, à son tour de sélection, s'il choisit avec une formulation sans-équivoque un joueur non-sélectionné ne peut revenir sur sa décision. *(Voté et approuvé au Draft 2022-2023)*
 
 18. La date limite des échanges sera alignée avec celle de la LNH si l'option ESPN le permet, sinon ce sera la date suivante la plus proche. *(Voté et approuvé au Draft 2022-2023)*
 
-19. La période pour mettre une offre sur les agents libres se terminent le dimanche à 17h00. *(Voté et approuvé au Draft 2022-2023)*
+19. La période pour mettre une offre sur les agents libres se termine le dimanche à 17h00. *(Voté et approuvé au Draft 2022-2023)*
 
 20. En cas de tie-break à la fin de saison entre 2 poolers, le plus de but gagne. *(Voté et approuvé au Draft 2023-2024)*
 
 21. En cas de transaction, la limite pour faire upheld ladite transaction par le commissionnaire est fixé à 4h avant l'heure de début de la première partie du lundi de la semaine en cours. Dans le cas contraire, les joueurs impliqués seront remis dans le roster des poolers la semaine suivante seulement. Un pooler a la responsabilité d'interpeller le commissionnaire pour une demande de upheld un joueur. *(Voté et approuvé au Draft 2023-2024)*
 
-22. Le nombre de pooler maximum est fixé à 14 sauf pour un Samuraï ou un Monosse boy. *(Voté et approuvé au Draft 2023-2024)*
+22. Le nombre maximum de poolers est fixé à 14 sauf pour un Samuraï ou un Monosse boy. *(Voté et approuvé au Draft 2023-2024)*
 
-23. Il est interdit de procéder à un échange de type « location ». Un joueur échangé en cours de saison ne peut être acquis par le pooler l'ayant préalablement échangé jusqu'au moment où le draft de l'année suivante est débuté. Par contre le pooler peut le réclamer sur les waivers.
+23. Il est interdit de procéder à un échange de type « location ». Un joueur échangé en cours de saison ne peut être acquis par le pooler l'ayant préalablement échangé jusqu'au moment où le draft de l'année suivante a débuté. Par contre le pooler peut le réclamer sur les waivers.
 
-    > **EX :** Le pooler X échange Mario Lemieux au pooler Y. Dans ce cas, le pooler X ne pourra acquérir Mario Lemieux d'aucune façon jusqu'au moment où le draft de l'année suivante est débuté et que tous les keeper ont été déterminé définitivement. *(Voté et approuvé au Draft 2023-2024)*
+    > **EX :** Le pooler X échange Mario Lemieux au pooler Y. Dans ce cas, le pooler X ne pourra acquérir Mario Lemieux d'aucune façon jusqu'au moment où le draft de l'année suivante a débuté et que tous les keeper ont été déterminé définitivement. *(Voté et approuvé au Draft 2023-2024)*
 
 24. Une fois la dernière période d'acquisition d'un joueur sur les waivers de l'année en cours, il n'est plus possible pour un pooler d'aller chercher un joueur sur les waivers jusqu'au début de la saison suivante. *(Voté et approuvé au Draft 2023-2024)*
 
@@ -128,7 +128,7 @@ Le document présent « Fondements et esprit du pool » doit être voté à la m
 
 1. **Amendement à la règle #8 (8.1)**
 
-   Le gagnant aura le choix des gains monétaires ou un chandail de la LNH d'un joeur de son choix (e.g: Le chandail de Kaprisov rétro-reverse). *(Voté et approuvé au Draft 2022-2023)*
+   Le gagnant aura le choix des gains monétaires ou un chandail de la LNH d'un joueur de son choix (ex. : Le chandail de Kaprisov rétro-reverse). *(Voté et approuvé au Draft 2022-2023)*
 
 2. **Amendement à la règle #3 (Issue du précédent #2)**
 
@@ -142,7 +142,7 @@ Le document présent « Fondements et esprit du pool » doit être voté à la m
 
    *Proposition anti tank :*
 
-   Les 5 poolers terminants aux position 10 à 14 participent à une loterie afin de déterminer leur ordre de repêchage pour l'ensemble des 13 rondes. Un pourcentage de chance de gagner la loterie est attribuée à chaque pooler en fonction du rang final au classement général.
+   Les 5 poolers terminant aux positions 10 à 14 participent à une loterie afin de déterminer leur ordre de repêchage pour l'ensemble des 13 rondes. Un pourcentage de chance de gagner la loterie est attribué à chaque pooler en fonction du rang final au classement général.
 
    - Position 14 : 35%
    - Position 13 : 25%
@@ -158,7 +158,7 @@ Le document présent « Fondements et esprit du pool » doit être voté à la m
 
 6. **Amendement à la règle #1.1 (1.1.1)**
 
-   Un pooler qui n'a pas de joueur keeper U24 (23 ans et moins) au moment où débute le draft ne peut keeper un 5e joueur et se vois perdre son choix de première ronde de l'année en cours personnel ou acquis via transaction (le meilleur). Si le pooler concerné n'a pas de choix de première ronde, il perd cont 2e pick et ainsi de suite. *(Voté et approuvé au Draft 2023-2024)*
+   Un pooler qui n'a pas de joueur keeper U24 (23 ans et moins) au moment où débute le draft ne peut keeper un 5e joueur et se voit perdre son choix de première ronde de l'année en cours personnel ou acquis via transaction (le meilleur). Si le pooler concerné n'a pas de choix de première ronde, il perd son 2e choix et ainsi de suite. *(Voté et approuvé au Draft 2023-2024)*
 
 7. **Amendement à la règle #3 (3 et 3.1) — Forçant la réécriture de la règle d'expansion (Cérémonie de l'expansion)**
 
@@ -170,13 +170,13 @@ Le document présent « Fondements et esprit du pool » doit être voté à la m
 
 9. **Amendement à la règle #1 (Affecte transitoirement les règles #2 et #3)**
 
-   À la fin de la saison, les poolers devront gardés 4 joueurs dits "keeper", avec les restrictions suivantes :
+   À la fin de la saison, les poolers devront garder 4 joueurs dits "keeper", avec les restrictions suivantes :
 
    - Maximum 3 attaquants
    - Au moins un défenseur ou un gardien
-   - Au moins un joueurs ayant 23 ans ou moins (U24) avant le 31 décembre de l'année en cours du draft.
+   - Au moins un joueur ayant 23 ans ou moins (U24) avant le 31 décembre de l'année en cours du draft.
 
-   *(Proposé par D.G. J.Lo, Voté et approuvé le 23 janvier 2024)*
+   *(Proposé par DG J.Lo, Voté et approuvé le 23 janvier 2024)*
 
 10. **Amendement à la règle #8**
 
@@ -197,8 +197,8 @@ Le document présent « Fondements et esprit du pool » doit être voté à la m
 
 1. **Draft d'expansion de Team J.Lo avant le draft 2021-2022** *(remplacé par la règle 3)*
 
-   Tous les D.G., sauf celui de l'équipe d'expansion, doivent protéger au plus 4 joueurs avant une date déterminée par le commisioner. Le D.G d'expansion pourra constituer ses 5 keepers (respectant les critères de la règle #1) à l'aide des joueurs non-protégés par les autres équipes. Suite à cette sélection, les autres D.G peuvent protéger un dernier joueur en respectant la règle 1.
+   Tous les DG, sauf celui de l'équipe d'expansion, doivent protéger au plus 4 joueurs avant une date déterminée par le commissionnaire. Le DG d'expansion pourra constituer ses 5 keepers (respectant les critères de la règle #1) à l'aide des joueurs non-protégés par les autres équipes. Suite à cette sélection, les autres DG peuvent protéger un dernier joueur en respectant la règle 1.
 
 2. **Draft 2021-2022 — Utilisation du "dé virtuel" à chaque ronde du draft pour l'équipe d'expansion.** *(remplacé par la règle 3.1)*
 
-3. **Draft 2022-2023** — Le draft 2022-2023 s'est conclu après le début de la première partie du calendrier officiel occasionant une perte de statistique pour certains DGs. Un ajustement de point a été noté (+X Nom d'équipe) et attribué au total final.
+3. **Draft 2022-2023** — Le draft 2022-2023 s'est conclu après le début de la première partie du calendrier officiel occasionnant une perte de statistiques pour certains DGs. Un ajustement de point a été noté (+X Nom d'équipe) et attribué au total final.
