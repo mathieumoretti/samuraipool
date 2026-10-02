@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuraï Pool 2026 - Repechage</title>
+    <style>
+        :root {
+            /* Palette basée sur samurai_pitch.png */
+            --red-primary: #E31837;
+            --gold-accent: #D4AF37;
+            --black-bg: #0a0a0a;
+            --white-text: #ffffff;
+            --dark-red: #8b0000;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--black-bg);
+            color: var(--white-text);
+            overflow: hidden;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .slides-wrapper {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        .slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--black-bg);
+            background-image:
+                radial-gradient(ellipse at center, transparent 0%, #000 100%);
+            padding: 60px;
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .slide.active {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 1;
+            z-index: 1;
+        }
+
+        .slide::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 6px;
+            background: linear-gradient(90deg, var(--red-primary), var(--gold-accent));
+        }
+
+        .slide::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 6px;
+            background: linear-gradient(90deg, var(--gold-accent), var(--red-primary));
+        }
+
+        .slide-title {
+            font-family: 'Impact', sans-serif;
+            font-size: 4em;
+            margin-bottom: 30px;
+            color: var(--white-text);
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            text-shadow: 4px 4px 0 var(--red-primary), 8px 8px 0 rgba(0,0,0,0.5);
+        }
+
+        .slide-subtitle {
+            font-size: 2em;
+            margin-bottom: 30px;
+            text-align: center;
+            font-family: 'Impact', sans-serif;
+            letter-spacing: 2px;
+        }
+
+        .slide-content {
+            font-size: 1.6em;
+            line-height: 1.8;
+            text-align: center;
+            max-width: 1000px;
+        }
+
+        .highlight {
+            color: var(--gold-accent);
+            font-weight: bold;
+        }
+
+        .red-highlight {
+            color: var(--red-primary);
+            font-weight: bold;
+        }
+
+        .big-number {
+            font-family: 'Impact', sans-serif;
+            font-size: 6em;
+            font-weight: bold;
+            color: var(--gold-accent);
+            margin: 30px auto;
+            text-transform: uppercase;
+            letter-spacing: 8px;
+            text-shadow: 5px 5px 0 var(--red-primary);
+        }
+
+        .image-container {
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            max-width: 90%;
+            max-height: 60vh;
+            border-radius: 15px;
+            box-shadow: 0 8px 40px rgba(227, 24, 55, 0.6);
+            border: 3px solid var(--gold-accent);
+        }
+
+        .logo-container img {
+            max-width: 450px;
+            margin: 20px auto;
+            display: block;
+        }
+
+        .bullet-list {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+            display: inline-block;
+        }
+
+        .bullet-list li {
+            font-size: 1.5em;
+            margin: 20px 0;
+            padding-left: 40px;
+            position: relative;
+        }
+
+        .bullet-list li::before {
+            content: '⚡';
+            position: absolute;
+            left: 0;
+            color: var(--gold-accent);
+            font-size: 1.2em;
+        }
+
+        .results-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .result-box {
+            max-width: 45%;
+        }
+
+        .result-box img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 8px 40px rgba(227, 24, 55, 0.6);
+            border: 3px solid var(--gold-accent);
+        }
+
+        .cta-box {
+            background: linear-gradient(135deg, var(--red-primary), var(--dark-red));
+            color: white;
+            padding: 40px;
+            border-radius: 20px;
+            margin-top: 30px;
+            border: 3px solid var(--gold-accent);
+        }
+
+        .cta-box h3 {
+            font-family: 'Impact', sans-serif;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .footer-info {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: var(--gold-accent);
+            font-size: 0.9em;
+            letter-spacing: 3px;
+            opacity: 0.7;
+        }
+
+        /* Navigation arrows */
+        .nav-arrow {
+            position: fixed;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(227, 24, 55, 0.8);
+            color: white;
+            border: 3px solid var(--gold-accent);
+            padding: 20px 15px;
+            font-size: 2em;
+            cursor: pointer;
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+
+        .nav-arrow:hover {
+            background: var(--gold-accent);
+            color: var(--black-bg);
+            transform: translateY(-50%) scale(1.1);
+        }
+
+        .prev-arrow { left: 20px; }
+        .next-arrow { right: 20px; }
+
+        /* Slide counter */
+        .slide-counter {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(212, 175, 55, 0.3);
+            color: var(--gold-accent);
+            padding: 10px 20px;
+            font-size: 1em;
+            letter-spacing: 2px;
+            z-index: 1000;
+        }
+
+        /* Start screen */
+        .start-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--black-bg);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 2000;
+        }
+
+        .start-btn {
+            margin-top: 40px;
+            background: var(--red-primary);
+            color: white;
+            border: 3px solid var(--gold-accent);
+            padding: 20px 50px;
+            font-size: 1.8em;
+            font-family: 'Impact', sans-serif;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            transition: all 0.3s ease;
+        }
+
+        .start-btn:hover {
+            background: var(--gold-accent);
+            color: var(--black-bg);
+            transform: scale(1.1);
+        }
+
+        /* Keyframe animation for entrance */
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .slide.active .slide-title,
+        .slide.active .slide-subtitle,
+        .slide.active .slide-content,
+        .slide.active .image-container,
+        .slide.active .cta-box {
+            animation: slideIn 0.6s ease-out forwards;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Start Screen -->
+    <div class="start-screen" id="startScreen">
+        <h1 style="font-size: 5em; color: var(--white-text); text-shadow: 4px 4px 0 var(--red-primary);">🏒 SAMURAÏ POOL 🏒</h1>
+        <p style="font-size: 2em; color: var(--gold-accent); margin-top: 20px;">Présentation du Repechage 2026</p>
+        <button class="start-btn" onclick="startPresentation()">Commencer la présentation →</button>
+        <p style="margin-top: 30px; color: #888;">Utilisez les flèches ← → ou appuyez sur Espace pour naviguer</p>
+    </div>
+
+    <div class="slides-wrapper">
+
+        <!-- Slide 1 : Titre avec image samurai pitch -->
+        <div class="slide active">
+            <h1 class="slide-title">🏒 Samuraï Pool 🏒</h1>
+            <p class="slide-subtitle" style="color: var(--gold-accent); font-size: 2.5em;">Repechage - Octobre 2026</p>
+            <div class="image-container">
+                <img src="samurai_pitch.png" alt="Samuraï Pool Pitch">
+            </div>
+        </div>
+
+        <!-- Slide 2 : Remerciements avec logo Lemny -->
+        <div class="slide">
+            <h1 class="slide-title">🙏 Merci à notre hôte ! 🙏</h1>
+            <p class="slide-content" style="font-size: 2em;">Un énorme merci à</p>
+            <div class="logo-container">
+                <img src="lemnylogo.jpg" alt="Logo Lemny Construction">
+            </div>
+            <p class="slide-content" style="margin-top: 20px; font-size: 2em;">pour l'accueil ce soir ! 🏠</p>
+        </div>
+
+        <!-- Slide 3 : Résultats de la saison dernière -->
+        <div class="slide">
+            <h1 class="slide-title">🏆 Résultats Saison Passée 🏆</h1>
+            <p class="slide-content" style="margin-top: 20px;">Classement Final & Éliminatoires</p>
+            <div class="results-container">
+                <div class="result-box">
+                    <img src="SeasonResults.png" alt="Classement de la saison">
+                </div>
+                <div class="result-box">
+                    <img src="PlayoffResults.png" alt="Résultats des éliminatoires">
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4 : Le Reset (MAJOR) -->
+        <div class="slide">
+            <h1 class="slide-title">⚠️ Nouvelle Règle Majeure ⚠️</h1>
+            <div class="big-number">Reset à Zéro</div>
+            <p class="slide-content" style="font-size: 1.8em;">
+                À partir de cette année <span class="red-highlight">2025-2026</span>, le Samuraï Pool s'aligne sur un nouveau cycle !
+            </p>
+            <ul class="bullet-list" style="text-align: center; display: block; margin-top: 30px;">
+                <li>Pas de keepers cette année</li>
+                <li>Tout le monde repart à zéro</li>
+                <li>Nouvelle saison, nouvelles opportunités !</li>
+            </ul>
+        </div>
+
+        <!-- Slide 5 : Distribution d'argent -->
+        <div class="slide">
+            <h1 class="slide-title">💰 Remise des Prix 💰</h1>
+            <p class="slide-content" style="font-size: 1.8em; margin-top: 20px;">Les gains seront distribués selon quatre positions :</p>
+            <ul class="bullet-list" style="margin-top: 40px;">
+                <li><strong>🥇 1er au classement des points</strong></li>
+                <li><strong>🥈 2e au classement des points</strong></li>
+                <li><strong>🏅 Champion des éliminatoires</strong></li>
+                <li><strong>🎖️ Finaliste des éliminatoires</strong></li>
+            </ul>
+        </div>
+
+        <!-- Slide 6 : Propositions de règles -->
+        <div class="slide">
+            <h1 class="slide-title">📝 Propositions de Règles 📝</h1>
+            <p class="slide-content" style="font-size: 2em;">Avez-vous des suggestions pour améliorer le pool cette année ?</p>
+            <div class="cta-box">
+                <h3>Partagez vos idées !</h3>
+                <p style="font-size: 1.5em; margin-top: 20px;">🗣️ Discussions ouvertes<br>
+                📋 Vote à la majorité<br>
+                ⚖️ Commissionnaire peut trancher en cas d'égalité</p>
+            </div>
+        </div>
+
+        <!-- Slide 7 : Début du Draft -->
+        <div class="slide">
+            <h1 class="slide-title">🎯 DRAFT - On y va ! 🎯</h1>
+            <p class="slide-content" style="font-size: 2.5em; margin-top: 30px;">
+                Format : <span class="red-highlight">Serpentin</span> 🐍<br><br>
+                Ordre de sélection : <span class="highlight">ALÉATOIRE</span> 🎲
+            </p>
+            <div class="cta-box" style="margin-top: 40px;">
+                <h3>Bon Draft à Tous !</h3>
+                <p style="font-size: 2em; margin-top: 15px;">🏒🍻</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Navigation arrows -->
+    <button class="nav-arrow prev-arrow" onclick="prevSlide()">←</button>
+    <button class="nav-arrow next-arrow" onclick="nextSlide()">→</button>
+
+    <!-- Slide counter -->
+    <div class="slide-counter">
+        <span id="currentSlide">1</span> / <span id="totalSlides">7</span>
+    </div>
+
+    <script>
+        let currentSlideIndex = 0;
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+        const startScreen = document.getElementById('startScreen');
+        const currentSlideEl = document.getElementById('currentSlide');
+        const totalSlidesEl = document.getElementById('totalSlides');
+
+        // Set total slides counter
+        totalSlidesEl.textContent = totalSlides;
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.remove('active');
+                if (i === index) {
+                    slide.classList.add('active');
+                }
+            });
+            currentSlideIndex = index;
+            currentSlideEl.textContent = currentSlideIndex + 1;
+        }
+
+        function nextSlide() {
+            if (currentSlideIndex < totalSlides - 1) {
+                showSlide(currentSlideIndex + 1);
+            }
+        }
+
+        function prevSlide() {
+            if (currentSlideIndex > 0) {
+                showSlide(currentSlideIndex - 1);
+            }
+        }
+
+        function startPresentation() {
+            startScreen.style.display = 'none';
+            document.documentElement.requestFullscreen().catch(err => {
+                console.log('Fullscreen not available');
+            });
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (startScreen.style.display === 'none') {
+                if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'Enter') {
+                    nextSlide();
+                } else if (e.key === 'ArrowLeft') {
+                    prevSlide();
+                } else if (e.key === 'Escape') {
+                    // Exit fullscreen on Escape
+                    if (document.fullscreenElement) {
+                        document.exitFullscreen();
+                    }
+                }
+            }
+        });
+
+        // Prevent space from scrolling
+        window.addEventListener('keydown', function(e) {
+            if (e.code === 'Space' && e.target === document.body) {
+                e.preventDefault();
+            }
+        }, true);
+    </script>
+</body>
+</html>
