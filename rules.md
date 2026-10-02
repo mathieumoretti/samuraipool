@@ -91,6 +91,37 @@ Le document présent « Fondements et esprit du pool » doit être voté à la m
 
 24. Une fois la dernière période d'acquisition d'un joueur sur les waivers de l'année en cours, il n'est plus possible pour un pooler d'aller chercher un joueur sur les waivers jusqu'au début de la saison suivante. *(Voté et approuvé au Draft 2023-2024)*
 
+### Format de compétition *(Voté et approuvé au Draft 2025-2026)*
+
+25. Sauf indication contraire, toute référence au « classement » dans les présents statuts et règlements désigne le classement des **points**.
+
+26. Il existe deux classements distincts :
+
+    - **Classement des points** : totalisation classique des points fantasy accumulés sur la saison, jusqu'au 12 avril.
+    - **Classement des matchups** : fiche hebdomadaire victoires-défaites-nulles (V-D-N) issue des confrontations 1 contre 1 entre poolers.
+
+27. En cas d'égalité au classement régulier des matchups, le bris d'égalité s'applique dans l'ordre suivant :
+
+    1. Plus de victoires
+    2. Plus de points fantasy
+    3. Fiche en matchups directs entre les équipes concernées
+    4. Moins de points accordés à l'adversaire
+    5. Pile ou face
+
+28. Les 8 premiers poolers au classement des matchups à l'issue de la saison régulière participent aux éliminatoires. Les éliminatoires débutent 6 semaines avant la fin du calendrier régulier de la LNH. Le seeding correspond au rang au classement des matchups et se maintient pour toutes les rondes.
+
+    **28.1** Le tableau des affrontements est le suivant : 1er vs 8e, 2e vs 7e, 3e vs 6e, 4e vs 5e.
+
+    **28.2** Les rondes 1 et 2 sont des matchups à élimination directe (1 partie). La finale est au meilleur de 3.
+
+    **28.3** Les poolers éliminés aux rondes 1 et 2 continuent de disputer des matchups pour la course au classement des points.
+
+    **28.4** Si la finale se conclut en 2 parties, une ronde de matchups exhibition est disputée par tous les poolers afin de conclure la saison à une date précise. La semaine 6 est en tout temps une semaine exhibition pour l'ensemble des poolers.
+
+29. Lors des éliminatoires, en cas d'égalité à la fin d'un matchup, l'équipe recevante (mieux classée au classement des matchups en saison régulière) est déclarée gagnante. Cet avantage persiste pour toutes les rondes des éliminatoires.
+
+30. Les poolers aux positions 9 à 14 au classement des matchups disputent un bracket consolation selon les affrontements suivants : 9e vs 10e, 11e vs 12e, 13e vs 14e. En cas de victoire, un pooler monte d'un rang; en cas de défaite, il descend d'un rang.
+
 ---
 
 ## Amendements
@@ -146,6 +177,19 @@ Le document présent « Fondements et esprit du pool » doit être voté à la m
    - Au moins un joueurs ayant 23 ans ou moins (U24) avant le 31 décembre de l'année en cours du draft.
 
    *(Proposé par D.G. J.Lo, Voté et approuvé le 23 janvier 2024)*
+
+10. **Amendement à la règle #8**
+
+    Les prix sont attribués selon quatre positions :
+
+    - 1er et 2e au classement des points
+    - Champion et finaliste des éliminatoires
+
+    La répartition des pourcentages sera déterminée annuellement par le secrétaire trésorier. *(Voté et approuvé au Draft 2025-2026)*
+
+11. **Amendement à la règle #20**
+
+    En cas de tie-break à la fin de saison entre 2 poolers au classement des **points**, le plus de buts gagne. *(Voté et approuvé au Draft 2025-2026)*
 
 ---
 
